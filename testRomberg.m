@@ -33,6 +33,6 @@ ksi=linspace(a,b,2^n+1);
     for i=1:(2^n)
         h(i)=f(ksi(i));
     end
-figure, area(ksi,h),hold on,plot(xx,y),,title(['Wykres funkcji f(x)=',strrep(func2str(f),'@(x)',''),' na przedziale [',num2str(a),',',num2str(b),']']),
+figure, area(ksi,h),hold on,plot(xx,y),title(['Wykres funkcji f(x)=',strrep(func2str(f),'@(x)',''),' na przedziale [',num2str(a),',',num2str(b),']']),
 xlabel('x'),ylabel('f(x)');
 end
