@@ -1,0 +1,142 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[dvips]{graphicx}
+\usepackage[cp1250]{inputenc}
+\usepackage{caption}
+\usepackage{enumerate}
+
+
+\captionsetup[table]{name=Tabela}
+
+
+\textheight 23.2 cm
+
+\textwidth 6.0 in
+
+\hoffset = -0.5 in
+
+\voffset = -2.4 cm
+
+\hyphenation{me-to-dy la-bo-ra-to-rium}
+
+\begin{document}
+
+%hę?
+%\thispagestyle{empty}
+
+\vspace*{3ex}
+\begin{flushright}
+{\large 23 stycznia 2020}
+\end{flushright}
+
+\begin{flushleft}
+{\large Jakub Kujawa\\
+Miko\l{}aj Kowalski\\
+Grupa G8}
+\end{flushleft}
+
+\hskip3cm
+
+\begin{center}
+
+\Large {\bf Obliczanie ca\l{}ek $\int_{a}^{b}f\left( x\right)dx$ metod\k{a} Romberga.} \vskip2ex
+
+{\large Projekt nr 2}
+
+\end{center}
+
+\vskip20ex
+
+
+
+\section{Opis metody}
+Do obliczania ca\l{}ek $\int_{a}^{b}f\left( x\right)dx$ zastosujemy metod\k{e} opracowan\k{a} w 1955 roku przez Wernera Romberga, kt\'ora opiera si\k{e} na wykorzystaniu z\l{}o\.zonego wzoru trapez\'ow:
+\begin{equation}
+\int_{a}^{b}f\left( x\right)dx \approx h_n \sum_{i=0}^n " f(a+ih) \label{Trapezy}
+\end{equation}
+gdzie n jest liczb\k{a} przedzia\l{}\'ow o r\'ownej d\l{}ugo\'sci, na kt\'ore dzielimy odcinek $[a,b]$ oraz
+\[
+h_n=\frac{b-a}{n}
+\]
+Symbol
+\[
+\sum "
+\]
+oznacza sum\k{e}, kt\'orej skrajne sk\l{}adniki s\k{a} dzielone na 2. 
+\\
+W naszym przypadku odcinek $[a,b]$ b\k{e}dzie dzielony na $2^{n}$ przedzia\l{}\'ow o r\'ownej d\l{}ugo\'sci. Zatem do wzoru (\ref{Trapezy}) b\k{e}dziemy podstawiali
+\[
+h_n=\frac{b-a}{2^n}
+\]
+Niech 
+\begin{equation}
+R(n,0)=h_n \sum_{i=0}^{2^n} " f(a+ih) \label{Romberg1}
+\end{equation}
+Najprostsze wyra\.zenie, od kt\'orego zaczniemy, to 
+\[
+R(0,0)=\frac{1}{2}(b-a)[f(a)+f(b)]
+\]
+Aby unikn\k{a}\'c wielokrotnego obliczania warto\'sci funkcji f w tych samych punktach, skorzystamy z rekurencyjnego wyznaczania
+\begin{equation}
+R(n,0)=\frac{1}{2}R(n-1,0)+h_n \sum_{i=1}^{2^{n-1}} f(a+(2i-1)h_n) \label{rekurencja}
+\end{equation}
+poniewa\.z w $R(n,0)$ wyst\k{e}puj\k{a} warto\'sci potrzebne do wyliczenia $R(n-1,0)$. Warto\'sci funkcji f w tych punktach musimy podzieli\'c na 2 oraz doda\'c do nich warto\'sci po\'srednie $a+h_n , a+3h_n, a+5h_n$ itd, co mo\.zna odczyta\'c we wzorze (\ref{rekurencja}). 
+\\
+Przybli\.zenia $R(n,0)$ tworz\k{a} pierwsz\k{a} kolumn\k{e} przybli\.ze\'n ca\l{}ki. Kolejne kolumny wyliczymy stosuj\k{a}c poni\.zszy wz\'or dla $m>0$, kt\'ory wynika ze wzoru Eulera-Maclaurina oraz ekstrapolacji Richardsona:
+\begin{equation}
+R(n,m)=R(n,m-1)+\frac{1}{4^m-1}[R(n,m-1)-R(n-1,m-1)] \label{dalsze_przyblizenia}
+\end{equation}
+Wobec tego dzi\k{e}ki wzorom (\ref{Romberg1}), (\ref{rekurencja}), (\ref{dalsze_przyblizenia}) znajdziemy wszystkie elementy tablicy tr\'ojk\k{a}tnej:
+$$
+\begin{array}{cccc}
+R(0,0)\\
+R(1,0) & R(1,1) \\
+\vdots & \vdots & \ddots \\
+R(n,0) & R(n,1) & \dots & R(n,n) 
+\end{array}
+$$
+kt\'ora zawiera coraz lepsze przybli\.zenia szukanej warto\'sci ca\l{}ki. Najlepsze przybli\.zenie, to $R(n,n)$. Warto\'sci z tablicy tr\'ojk\k{a}tnej b\k{e}d\k{a} obliczane kolejno wierszami, zaczynaj\k{a}c od pierwszego.
+\\
+Obliczaj\k{a}c kolejne przybli\.zenia b\k{e}dziemy bada\'c b\l{}\k{e}dy wzgl\k{e}dem funkcji $integral(f,a,b)$ wbudowanej w program Matlab. Funkcja ta wyznacza warto\'s\'c ca\l{}ki z funkcji $f$ na przedziale $[a,b]$. Na podstawie wyznaczonych b\l{}\k{e}d\'ow wzgl\k{e}dnych oraz bezwzgl\k{e}dnych zostanie przeprowadzona analiza metody. 
+\\
+\vskip20pt
+
+\section{Opis programu obliczeniowego}
+
+W czasie tworzenia programu obliczeniowego zosta\l{}y stworzone nast\k{e}puj\k{a}ce funkcje:
+\begin{enumerate}
+\item $Romberg(f,a,b,M)=[x,R]$:
+\\
+przyjmuje za argumenty funkcj\k{e} $f$, ko\'nce przedzia\l{}u $[a,b]$, na kt\'orym wyznaczamy warto\'s\'c ca\l{}ki, oraz liczb\k{e} M, kt\'ora okre\'sla na ile odcink\'ow b\k{e}dzie dzielony przedzia\l{} $[a,b]$ (na $2^M$ r\'ownych odcink\'ow). Wyznacza warto\'s\'c $\int_{a}^{b}f\left( x\right)dx$ metod\k{a} Romberga oraz tablic\k{e} R, w kt\'orej umieszczone s\k{a} kolejnych przybli\.zenia warto\'sci badanej ca\l{}ki.
+
+\item $testRomberg(f,a,b,n,s)$:
+\\
+przyjmuje za argumenty funkcj\k{e} $f$, ko\'nce przedzia\l{}u $[a,b]$, na kt\'orym wyznaczamy warto\'s\'c ca\l{}ki, liczby ca\l{}kowite n oraz s. Testuje metod\k{e} Romberga dla warto\'sci M od 1 do n z krokiem co s. Dla ka\.zdego M wypisuje tabel\k{e} w formacie LaTex i tworzy wykresy b\l{}\k{e}d\'ow wzgl\k{e}dnych i bezwgl\k{e}dnych. 
+ 
+\end{enumerate}
+
+\vskip20pt
+
+\section{Przyk\l ady obliczeniowe}
+
+\noindent 
+By zbada\'c poprawno\'s\'c naszego programu sprawdzimy jego dzia\l{}anie dla pewnych konkretnych funkcji:
+\begin{enumerate}
+\item $f(x)=1+sin(1/x)$
+\item $f(x)=sin(x)$
+\item $f(x)=tg(x)$
+\item $f(x)=x^{-1}$
+\item $f(x)=2^x$
+\item $f(x)=x^3+x^2+x+1$
+
+\end{enumerate}
+
+\vskip20pt
+
+\section{Analiza wynik\'ow}
+
+\end{document}
