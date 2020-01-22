@@ -16,9 +16,9 @@ format='%10.5e';
         relError(i)=abs((x-xr(i))/x);
         disp(['\hline $', num2str(i), '$ & $', num2str(xr(i),format), '$ & $',num2str(x,format) ,'$ & $', num2str(error(i),format),'$ & $',num2str(relError(i),format),'$ \\']);
     end
-figure, plot(N,error),title(['Wykres b³êdu bezwglednego dla obliczenia ca³ki z funkcji f(x)=',strrep(func2str(f),'@(x)',''),' na przedziale [',num2str(a),',',num2str(b),'] metod¹ Romberga']),
+figure, plot(N,error),
 xlabel('M'),ylabel('b³¹d bezwzglêdny');
-figure, plot(N,relError),title(['Wykres b³êdu wzglêdnego dla obliczenia ca³ki z funkcji f(x)=',strrep(func2str(f),'@(x)',''),' na przedziale [',num2str(a),',',num2str(b),'] metod¹ Romberga']),
+figure, plot(N,relError),
 xlabel('M'),ylabel('b³¹d wzglêdny');
 
 

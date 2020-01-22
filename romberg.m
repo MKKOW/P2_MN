@@ -1,5 +1,6 @@
 function [x,R]=romberg(f,a,b,M)
 %Funkcja oblicza wartosc numerczna calki na przedziale (a,b) z funkcji f(x)
+%metoda romberga
 h=b-a;
 R=zeros(M);
 R(1,1)=1/2*(b-a)*(f(a)+f(b));
