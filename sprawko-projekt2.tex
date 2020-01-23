@@ -54,8 +54,9 @@ Grupa G8}
 
 \end{center}
 
-\vskip20ex
-
+\newpage
+\tableofcontents
+\newpage
 
 
 \section{Opis metody}
@@ -260,7 +261,7 @@ Sprawdzamy dla przedzia³ów $(10^{-3},1)$,$(10^{-4},1)$,$(10^{-5},1)$,$(10^{-6},1
 .
 \newpage
 \subsection{$f(x)=\sin(x)$}
-Sprawdzenie dla przedzia³ów $[0, 2\pi]$ oraz $[o,\pi]$
+Sprawdzenie dla przedzia³ów $[0, 2\pi]$ oraz $[0,\pi]$
 \begin{table}[h!]
 	\caption{\footnotesize Tabela dla $\int_{0}^{2\pi}\sin{x}dx $}%vskip1ex
 	\renewcommand{\arraystretch}{1.1}
@@ -543,14 +544,16 @@ Sprawdzenie dla przedzia³u $[0.5,3]$
 	\label{lnx}
 \end{figure}
 \FloatBarrier
+.
 \newpage
 \section{Analiza wynik\'ow}
 \FloatBarrier
+Patrz\k{a}c na uzyskane wyniki dla badanych funkcji mo\.zna zauwa\.zy\'c du\.ze b\l{}\k{e}dy w obliczeniu ca\l{}ek dla ma\l{}ych warto\'sci M. Widocznym to jest na wykresach (\ref{sin1x6obrazek}), (\ref{1x}), (\ref{absx}) oraz (\ref{lnx}). Do g\l{}ebszej analizy zosta\l{}y wykonane dodatkowe wykresy przedstawiaj\k{a}ce spos\'ob pokrycia powierzchni trapezami wyznaczonymi za pomoc\k{a} metody Romberga. Niebieskie pole jest wyznaczonym pokryciem. Natomiast czerwona linia jest wykresem badanej funkcji.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=1\textwidth]{sin1x23.png}
 	\vskip-1.5ex
-	\caption{\footnotesize Zale¿noœæ b³êdu wzglêdnego od dok³adnoœci przybli¿enia ca³ki $\int_{0.5}^{3}\ln x dx $ metod¹ Romberga}
+	\caption{\footnotesize Zale¿noœæ b³êdu wzglêdnego od dok³adnoœci przybli¿enia ca³ki $\int_{10^{-6}}^{1}1+\sin(\frac{1}{x}) dx $ metod¹ Romberga}
 	\label{sin1xw}
 \end{figure}
 \FloatBarrier
@@ -559,7 +562,7 @@ Sprawdzenie dla przedzia³u $[0.5,3]$
 	\centering
 	\includegraphics[width=1\textwidth]{1xwyk.png}
 	\vskip-1.5ex
-	\caption{\footnotesize Zale¿noœæ b³êdu wzglêdnego od dok³adnoœci przybli¿enia ca³ki $\int_{0.5}^{3}\ln x dx $ metod¹ Romberga}
+	\caption{\footnotesize Zale¿noœæ b³êdu wzglêdnego od dok³adnoœci przybli¿enia ca³ki $\int_{10^{-2}}^{1}\frac{1}{x}dx $ metod¹ Romberga}
 	\label{1xw}
 \end{figure}
 \FloatBarrier
@@ -568,7 +571,7 @@ Sprawdzenie dla przedzia³u $[0.5,3]$
 	\centering
 	\includegraphics[width=1\textwidth]{absxw.png}
 	\vskip-1.5ex
-	\caption{\footnotesize Zale¿noœæ b³êdu wzglêdnego od dok³adnoœci przybli¿enia ca³ki $\int_{0.5}^{3}\ln x dx $ metod¹ Romberga}
+	\caption{\footnotesize Zale¿noœæ b³êdu wzglêdnego od dok³adnoœci przybli¿enia ca³ki $\int_{-1}^{2}|x| dx $ metod¹ Romberga}
 	\label{absxw}
 \end{figure}
 \FloatBarrier
@@ -581,4 +584,16 @@ Sprawdzenie dla przedzia³u $[0.5,3]$
 	\label{lnxw}
 \end{figure}
 \FloatBarrier
+Powy\.zsze wykresy potwierdzaj\k{a} tez\k{e} o niedok\l{}adnym pokryciu dla ma\l{}ych M. Zatem, aby unikn\k{a}\'c b\l{}ed\'ow w obliczaniu ca\l{}ek metod\k{a} Romberga nale\.zy dobiera\'c $M\geq5$.
+\\
+Kolejn\k{a} wart\k{a} uwagi infrormacj\k{a} s\k{a} b\l{}\k{e}dy zilustrowane na wykresach (\ref{sinxwblad}) oraz (\ref{tan0}). Zauwa\.zamy, \.ze b\l{}\k{a}d wzgl\k{e}dny jest wysoki oraz trudno znale\'z\'c zale\.zno\'s\'c wielko\'sci b\l{}\k{e}du od znanych czynnik\'ow. Jednak po g\l{}\k{e}bszej analizie uzyskanych wynik\'ow widocznym jest, \.ze wielko\'s\'c b\l{}\k{e}d\'ow spowodowana jest warto\'sci\k{a} ca\l{}ki r\'own\k{a} 0.
+\\
+Wobec tego widzimy, \.ze dok\l{}adno\'s\'c metody Romberga ro\'snie bardzo szybko. Dla $M\geq5$ mo\.zna si\k{e} spodziewa\'c bardzo dobrze przybli\.zonych wynik\'ow. Jedynie dla ca\l{e}k, kt\'orych warto\'s\'c jest r\'owna 0, mo\.zemy uzyska\'c du\.ze b\l{}\k{e}dy wzgl\k{e}dne otrzymanych wynik\'ow. 
+{\small
+\begin{thebibliography}{11}
+
+\bibitem{Kincaid: 81} {\rm David Kincaid, Ward Cheney} - Analiza numeryczna, WNT, Warszawa 2005
+
+\end{thebibliography}
+}
 \end{document}
