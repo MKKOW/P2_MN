@@ -589,6 +589,30 @@ Powy\.zsze wykresy potwierdzaj\k{a} tez\k{e} o niedok\l{}adnym pokryciu dla ma\l
 Kolejn\k{a} wart\k{a} uwagi infrormacj\k{a} s\k{a} b\l{}\k{e}dy zilustrowane na wykresach (\ref{sinxwblad}) oraz (\ref{tan0}). Zauwa\.zamy, \.ze b\l{}\k{a}d wzgl\k{e}dny jest wysoki oraz trudno znale\'z\'c zale\.zno\'s\'c wielko\'sci b\l{}\k{e}du od znanych czynnik\'ow. Jednak po g\l{}\k{e}bszej analizie uzyskanych wynik\'ow widocznym jest, \.ze wielko\'s\'c b\l{}\k{e}d\'ow spowodowana jest warto\'sci\k{a} ca\l{}ki r\'own\k{a} 0.
 \\
 Wobec tego widzimy, \.ze dok\l{}adno\'s\'c metody Romberga ro\'snie bardzo szybko. Dla $M\geq5$ mo\.zna si\k{e} spodziewa\'c bardzo dobrze przybli\.zonych wynik\'ow. Jedynie dla ca\l{e}k, kt\'orych warto\'s\'c jest r\'owna 0, mo\.zemy uzyska\'c du\.ze b\l{}\k{e}dy wzgl\k{e}dne otrzymanych wynik\'ow. 
+\newpage
+\section{Kod programu}
+\lstset{language=Matlab,%
+	%basicstyle=\color{red},
+	breaklines=true,%
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+\subsection{romberg.m}
+
+\lstinputlisting{romberg.m}
+\subsection{testRomberg.m}
+
+\lstinputlisting{testRomberg.m}
 {\small
 \begin{thebibliography}{11}
 

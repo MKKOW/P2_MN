@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.27)  22 JAN 2020 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.27)  23 JAN 2020 08:17
 entering extended mode
 **./sprawko-projekt2.tex
 (sprawko-projekt2.tex
@@ -308,241 +308,258 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/mikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (8.51353pt too wide) in paragraph at lines 106--111
+{C:/Users/mikol/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (sprawko-pr
+ojekt2.toc)
+\tf@toc=\write3
+\openout3 = `sprawko-projekt2.toc'.
+
+
+[2]
+Overfull \hbox (8.51353pt too wide) in paragraph at lines 107--112
 \T1/cmr/m/n/12 Obliczaj¡c ko-lejne przy-bli-»e-nia b¦-dziemy ba-da¢ bª¦dy wzgl¦
 -dem funk-cji $\OML/cmm/m/it/12 integral\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 f; a;
  b\OT1/cmr/m/n/12 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 
  []
 
-[2]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 148--163
+[3] [4]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 149--164
  [][] 
  []
 
-<sin1x3.png, id=21, 843.15pt x 632.3625pt>
+<sin1x3.png, id=29, 843.15pt x 632.3625pt>
 File: sin1x3.png Graphic file (type png)
 <use sin1x3.png>
-Package pdftex.def Info: sin1x3.png  used on input line 167.
+Package pdftex.def Info: sin1x3.png  used on input line 168.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 177--192
+[5]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 178--193
  [][] 
  []
 
-<sin1x4.png, id=35, 843.15pt x 632.3625pt>
+<sin1x4.png, id=41, 843.15pt x 632.3625pt>
 File: sin1x4.png Graphic file (type png)
 <use sin1x4.png>
-Package pdftex.def Info: sin1x4.png  used on input line 196.
+Package pdftex.def Info: sin1x4.png  used on input line 197.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./sin1x3.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 206--221
+[6 <./sin1x3.png (PNG copy)>]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 207--222
  [][] 
  []
 
-<sin1x5.png, id=39, 843.15pt x 632.3625pt>
+<sin1x5.png, id=45, 843.15pt x 632.3625pt>
 File: sin1x5.png Graphic file (type png)
 <use sin1x5.png>
-Package pdftex.def Info: sin1x5.png  used on input line 225.
+Package pdftex.def Info: sin1x5.png  used on input line 226.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./sin1x4.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 235--250
+[7 <./sin1x4.png (PNG copy)>]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 236--251
  [][] 
  []
 
-<sin1x6.png, id=43, 843.15pt x 632.3625pt>
+<sin1x6.png, id=50, 843.15pt x 632.3625pt>
 File: sin1x6.png Graphic file (type png)
 <use sin1x6.png>
-Package pdftex.def Info: sin1x6.png  used on input line 254.
+Package pdftex.def Info: sin1x6.png  used on input line 255.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./sin1x5.png (PNG copy)>] [7 <./sin1x6.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 267--292
+[8 <./sin1x5.png (PNG copy)>] [9 <./sin1x6.png (PNG copy)>]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 268--293
  [][] 
  []
 
-<sinxwblad.png, id=51, 843.15pt x 632.3625pt>
+<sinxwblad.png, id=57, 843.15pt x 632.3625pt>
 File: sinxwblad.png Graphic file (type png)
 <use sinxwblad.png>
-Package pdftex.def Info: sinxwblad.png  used on input line 296.
+Package pdftex.def Info: sinxwblad.png  used on input line 297.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 305--330
+[10]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 306--331
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./sinxwblad.png (PNG copy)>] [10]
-<sinxwblad1.png, id=61, 843.15pt x 632.3625pt>
+[11 <./sinxwblad.png (PNG copy)>] [12]
+<sinxwblad1.png, id=67, 843.15pt x 632.3625pt>
 File: sinxwblad1.png Graphic file (type png)
 <use sinxwblad1.png>
-Package pdftex.def Info: sinxwblad1.png  used on input line 334.
+Package pdftex.def Info: sinxwblad1.png  used on input line 335.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
- [11
+ [13
 
  <./sinxwblad1.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 347--372
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 348--373
  [][] 
  []
 
-<tan0.png, id=65, 843.15pt x 632.3625pt>
+<tan0.png, id=72, 843.15pt x 632.3625pt>
 File: tan0.png Graphic file (type png)
 <use tan0.png>
-Package pdftex.def Info: tan0.png  used on input line 376.
+Package pdftex.def Info: tan0.png  used on input line 377.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 385--410
+[14]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 386--411
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./tan0.png (PNG copy)>] [14]
-<tan02pi.png, id=78, 843.15pt x 632.3625pt>
+[15 <./tan0.png (PNG copy)>] [16]
+<tan02pi.png, id=84, 843.15pt x 632.3625pt>
 File: tan02pi.png Graphic file (type png)
 <use tan02pi.png>
-Package pdftex.def Info: tan02pi.png  used on input line 414.
+Package pdftex.def Info: tan02pi.png  used on input line 415.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
- [15
+ [17
 
  <./tan02pi.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 427--452
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 428--453
  [][] 
  []
 
-<1x.png, id=82, 843.15pt x 632.3625pt>
+<1x.png, id=88, 843.15pt x 632.3625pt>
 File: 1x.png Graphic file (type png)
 <use 1x.png>
-Package pdftex.def Info: 1x.png  used on input line 456.
+Package pdftex.def Info: 1x.png  used on input line 457.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] [17 <./1x.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 469--494
+[18] [19 <./1x.png (PNG copy)>]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 470--495
  [][] 
  []
 
-<absx.png, id=89, 843.15pt x 632.3625pt>
+<absx.png, id=96, 843.15pt x 632.3625pt>
 File: absx.png Graphic file (type png)
 <use absx.png>
-Package pdftex.def Info: absx.png  used on input line 498.
+Package pdftex.def Info: absx.png  used on input line 499.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] [19 <./absx.png (PNG copy)>]
-Overfull \hbox (56.2376pt too wide) in paragraph at lines 511--536
+[20] [21 <./absx.png (PNG copy)>]
+Overfull \hbox (56.2376pt too wide) in paragraph at lines 512--537
  [][] 
  []
 
-<lnx.png, id=97, 843.15pt x 632.3625pt>
+<lnx.png, id=103, 843.15pt x 632.3625pt>
 File: lnx.png Graphic file (type png)
 <use lnx.png>
-Package pdftex.def Info: lnx.png  used on input line 540.
+Package pdftex.def Info: lnx.png  used on input line 541.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]
-<sin1x23.png, id=101, 843.15pt x 632.3625pt>
+[22] [23 <./lnx.png (PNG copy)>]
+<sin1x23.png, id=110, 843.15pt x 632.3625pt>
 File: sin1x23.png Graphic file (type png)
 <use sin1x23.png>
-Package pdftex.def Info: sin1x23.png  used on input line 550.
+Package pdftex.def Info: sin1x23.png  used on input line 554.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./lnx.png (PNG copy)>]
-<1xwyk.png, id=105, 843.15pt x 632.3625pt>
+<1xwyk.png, id=111, 843.15pt x 632.3625pt>
 File: 1xwyk.png Graphic file (type png)
 <use 1xwyk.png>
-Package pdftex.def Info: 1xwyk.png  used on input line 559.
+Package pdftex.def Info: 1xwyk.png  used on input line 563.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./sin1x23.png (PNG copy)>] [23 <./1xwyk.png (PNG copy)>]
-<absxw.png, id=112, 843.15pt x 632.3625pt>
+[24 <./sin1x23.png (PNG copy)>]
+<absxw.png, id=115, 843.15pt x 632.3625pt>
 File: absxw.png Graphic file (type png)
 <use absxw.png>
-Package pdftex.def Info: absxw.png  used on input line 568.
-(pdftex.def)             Requested size: 433.62pt x 325.22165pt.
-<lnxw.png, id=113, 843.15pt x 632.3625pt>
-File: lnxw.png Graphic file (type png)
-<use lnxw.png>
-Package pdftex.def Info: lnxw.png  used on input line 577.
+Package pdftex.def Info: absxw.png  used on input line 572.
 (pdftex.def)             Requested size: 433.62pt x 325.22165pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24
+[25 <./1xwyk.png (PNG copy)>] [26 <./absxw.png (PNG copy)>]
+<lnxw.png, id=123, 843.15pt x 632.3625pt>
+File: lnxw.png Graphic file (type png)
+<use lnxw.png>
+Package pdftex.def Info: lnxw.png  used on input line 581.
+(pdftex.def)             Requested size: 433.62pt x 325.22165pt.
+ [27
 
- <./absxw.png (PNG copy)>] [25 <./lnxw.png (PNG copy)>]
-(sprawko-projekt2.aux) ) 
+ <./lnxw.png (PNG copy)>]
+(C:\Users\mikol\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(romberg.m
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
+.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+)
+(testRomberg.m [28]) [29] (sprawko-projekt2.aux) ) 
 Here is how much of TeX's memory you used:
- 6194 strings out of 492526
- 86828 string characters out of 3130766
- 168044 words of memory out of 3000000
- 10373 multiletter control sequences out of 15000+200000
- 18466 words of font info for 59 fonts, out of 3000000 for 9000
+ 7153 strings out of 492526
+ 96936 string characters out of 3130766
+ 470484 words of memory out of 3000000
+ 11313 multiletter control sequences out of 15000+200000
+ 20001 words of font info for 61 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 46i,10n,42p,455b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\mikol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\mikol\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\mikol\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\mikol\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\miko
-l\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
-Users\mikol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm144
-0.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on sprawko-projekt2.pdf (25 pages, 798764 bytes).
+ 46i,10n,42p,545b,1804s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\mikol\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\mikol\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\User
+s\mikol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk
+> <C:\Users\mikol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbx1440.pk> <C:\Users\mikol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecbx1200.pk> <C:\Users\mikol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\mikol\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\mikol\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on sprawko-projekt2.pdf (29 pages, 840104 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
+ 482 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
